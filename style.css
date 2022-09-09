@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #192026;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	padding: 24px 0;
+}
+.navset {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+
+.logo {
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+}
+nav {
+	display: flex;
+}
+
+nav a {
+	box-sizing: border-box;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #868686;
+}
+nav .home {
+	font-weight: 400;
+	font-size: 18px;
+}
+nav .list {
+	font-weight: 400;
+	font-size: 18px;
+}
+.searchbar {
+	display: flex;
+	flex-direction: inherit;
+	width: 375px;
+	height: 48px;
+	background: #374151;
+	border-radius: 37px;
+}
+.searchbar input {
+	padding-left: 10px;
+	text-align: left;
+	border: none;
+	background-color: transparent;
+	resize: none;
+	outline: none;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+section {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 28px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+section .watch {
+	font-weight: 300;
+	color: #868686;
+	margin-bottom: 24px;
+}
+.sum {
+	background-image: url(asd.jpg);
+	width: 100%;
+	height: 400px;
+	position: relative;
+	border-radius: 10px;
+}
+.sum::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+}
+.textonimg {
+	position: absolute;
+	bottom: 40px;
+	left: 50px;
+	right: 50px;
+	z-index: 1;
+}
+.textonimg a {
+	display: flex;
+	text-decoration: none;
+	color: white;
+	gap: 10px;
+	justify-content: space-between;
+}
+.textonimg a:last-child {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 27px;
+}
+footer {
+	font-family: 'poppins', sans-serif;
+	color: white;
+	margin-top: 42px;
+	flex-direction: column;
+}
+
+.onlyimg {
+	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	margin-top: 24px;
+	gap: 30px;
+	background-size: cover;
+	position: relative;
+}
+
+.listofanime {
+	/* background-image: url(boruto-naruto-next-generations\ 1.png); */
+	width: 100%;
+	height: 254px;
+}
+
+.listofanime1 {
+	background-image: url(spy_card\ 1.png);
+	width: 100%;
+	height: 254px;
+}
+.listofanime2 {
+	background-image: url(attackontitan\ 1.png);
+	width: 100%;
+	height: 254px;
+}
+.listofanime3 {
+	background-image: url(captsu_card\ 1.png);
+	width: 100%;
+	height: 254px;
+}
+.listofanime4 {
+	background-image: url(aoashi_card\ 1.png);
+	width: 100%;
+	height: 254px;
+}
+.listofanime5 {
+	background-image: url(spy_card\ 1.png);
+	width: 100%;
+	height: 254px;
+}
+.secondlyimg {
+	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	margin-top: 70px;
+	gap: 30px;
+	background-size: cover;
+	position: relative;
+}
+.secondlyimg .listofanime .episodes {
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.onlyimg::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 254px;
+	background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0f1e29 100%);
+	border-radius: 10px;
+}
+.episodes {
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 220px;
+}
+.episodes a {
+	text-decoration: none;
+	color: white;
+}
+.namepisode {
+	position: relative;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.namepisode a {
+	text-decoration: none;
+	color: white;
+}
+
+/* .new-realease {
+	width: 1170px;
+	height: 362px;
+	padding-left: 135px;
+	overflow: hidden;
+}
+.titletwo {
+	color: white;
+	margin-bottom: 24px;
+}
+.episodes {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 30px;
+}
+.a-episode {
+	display: flex;
+	flex-direction: column;
+}
+.epsiode-img {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border-radius: 10px;
+	background-size: cover;
+}
+.epsiode-img::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0f1e29 100%);
+}
+.epsiode-text {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+}  */
